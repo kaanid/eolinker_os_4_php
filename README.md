@@ -12,7 +12,7 @@
 - docker build -t eolinkerphp:prod .;
 - docker run -d --restart=always --name eolinkerweb -p 8001:80 -v /xxxxxx/：/var/www/html/server/RTP/config/ eolinkerphp:prod;
 
-这要每次启动，设置不会被重置
+这样每次启动，设置不会被重置
 
 #### Docker 部署1
 
