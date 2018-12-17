@@ -1,4 +1,4 @@
-﻿#### 优化
+#### 优化
 - 优化完善Swagger导入，支持实体和数组，实现多级显示
 
 #### Docker 开发调试
@@ -7,7 +7,7 @@
 - docker run -d --name eolinkerweb -p 8001:80 -v /xxxxxx/：/var/www/html/ eolinkerphp:test;
 
 
-#### Docker 部署1
+#### Docker 部署2
 
 - docker build -t eolinkerphp:prod .;
 - docker run -d --restart=always --name eolinkerweb -p 8001:80 -v /xxxxxx/：/var/www/html/server/RTP/config/ eolinkerphp:prod;
@@ -57,6 +57,8 @@ defined('LANGUAGE') or define ('LANGUAGE', 'zh-cn');
 - docker build -t eolinkerphp:prod .;
 - docker run -d --restart=always --name eolinkerweb -p 8001:80 eolinkerphp:prod;
 
+#### 学习使用
+仅作学习使用
 
 #### eolinker开源版本
  * @name eolinker ams open source，eolinker开源版本
